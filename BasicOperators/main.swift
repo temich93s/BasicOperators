@@ -75,3 +75,11 @@ if name == "world" {
 
 ("blue", -1) < ("blue", 1) ? print(true) : print(false) // true
 //("blue", false) <= ("blue", true) ? print(true) : print(false) // ошибка - операторы <, >, <=, >= не могут применяться к bool
+
+// MARK: Тернарный условный оператор
+print("\n//Тернарный условный оператор")
+let contentHeight = 40
+let hasHeader = true
+print("\(contentHeight + (hasHeader ? 50 : 20))") // 90
+print("\(contentHeight + (!hasHeader ? 50 : 20))") // 60
+
