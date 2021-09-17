@@ -116,3 +116,16 @@ for index in 1...5 {
     print("\(index) умножить на 5 будет: \(index * 5)")
 }
 // будет 5, 10, 15, 20, 25
+
+
+// MARK: Оператор полузамкнутого диапазона
+print("\n//Оператор полузамкнутого диапазона")
+
+for index in 1..<5 {
+    print("\(index) * 9 = \(index * 9)")
+}
+
+let numberArray = [1, 2, 3, 4, 5]
+for i in 0..<numberArray.count {
+    print("Число: \(i)")
+}
