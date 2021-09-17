@@ -46,3 +46,8 @@ let three = 3
 let minusThree = -three // minusThree равно -3
 let plusThree = -minusThree // plusThree равно 3 (так как "минус минус три")
 print(three, minusThree, plusThree)
+
+// MARK: Составные операторы присваивания
+print("\n//Составные операторы присваивания")
+var c1 = 1
+c1 += 2 // теперь с1 равно 3
