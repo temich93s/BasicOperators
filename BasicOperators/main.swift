@@ -51,3 +51,27 @@ print(three, minusThree, plusThree)
 print("\n//Составные операторы присваивания")
 var c1 = 1
 c1 += 2 // теперь с1 равно 3
+print(c1)
+
+// MARK: Операторы сравнения
+print("\n//Операторы сравнения")
+1 == 1 ? print(true) : print(false) // истина, так как 1 равно 1
+2 != 1 ? print(true) : print(false) // истина, так как 2 не равно 1
+2 > 1 ? print(true) : print(false) // истина, так как 2 больше чем 1
+1 < 2 ? print(true) : print(false) // истина, так как 1 меньше 2
+1 >= 1 ? print(true) : print(false) // истина, так как 1 больше либо равно 1
+2 <= 1 ? print(true) : print(false) // ложь, так как 2 не меньше либо равно 1
+
+let name = "world"
+if name == "world" {
+    print("hello")
+} else {
+    print("\(name)")
+} // напечатает "hello" так как name равно "world"
+
+(1, "zebra") < (2, "apple") ? print(true) : print(false) // true, так как 1 меньшше 2, остальное не сравнивается
+(3, "apple") < (3, "bird") ? print(true) : print(false) // true, так как 3 равно 3, "apple" меньше "bird"
+(4, "dog") == (4, "dog") ? print(true) : print(false) // true, так как 4 равно 4, "dog" равно "dog"
+
+("blue", -1) < ("blue", 1) ? print(true) : print(false) // true
+//("blue", false) <= ("blue", true) ? print(true) : print(false) // ошибка - операторы <, >, <=, >= не могут применяться к bool
