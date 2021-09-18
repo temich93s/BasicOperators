@@ -140,3 +140,11 @@ for index in numberArray[...4] {
 for index in numberArray[0...] {
     print("\(index) * 8 = \(index * 8)")
 }
+
+let range = ...6
+print("8 содержиться в range(...6)? - \(range.contains(8))")
+print("4 содержиться в range(...6)? - \(range.contains(4))")
+print("0 содержиться в range(...6)? - \(range.contains(0))")
+print("-1 содержиться в range(...6)? - \(range.contains(-1))")
+print("-8 содержиться в range(...6)? - \(range.contains(-8))")
+
