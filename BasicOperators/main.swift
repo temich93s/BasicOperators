@@ -127,5 +127,5 @@ for index in 1..<5 {
 
 let numberArray = [1, 2, 3, 4, 5]
 for i in 0..<numberArray.count {
-    print("Число: \(i)")
+    print("Число: \(numberArray[i])")
 }
