@@ -181,3 +181,9 @@ var d9 = false
 var d10 = true
 print("d8 = true, d9 = false, d10 = true")
 print("d8 || d9 $$ d10 = \(d8 || d9 && d10)")
+
+
+// MARK: Явное указание круглых скобок
+print("\n//Явное указание круглых скобок")
+print("d8 = true, d9 = false, d10 = true")
+print("d8 && (d9 || d10) = \(d8 && (d9 || d10))")
