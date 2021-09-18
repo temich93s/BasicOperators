@@ -173,3 +173,11 @@ print("d6 = true, d7 = false, d6 && d7 = \(d4 || d5)")
 print("d6 = true, d7 = false, d6 && !d7 = \(d4 || !d5)")
 print("d6 = true, d7 = false, !d6 && d7 = \(!d4 || d5)")
 
+
+// MARK: Комбинирование логических операторов
+print("\n//Комбинирование логических операторов")
+var d8 = true
+var d9 = false
+var d10 = true
+print("d8 = true, d9 = false, d10 = true")
+print("d8 || d9 $$ d10 = \(d8 || d9 && d10)")
