@@ -154,3 +154,12 @@ print("\n//Оператор логического НЕ")
 
 var d3 = true
 print("d3 = \(d3), !d3 = \(!d3)")
+
+
+// MARK: Оператор логического И
+print("\n//Оператор логического И")
+
+var d4 = true
+var d5 = false
+print("d4 = true, d5 = false, d4 && d5 = \(d4 && d5)")
+print("d4 = true, d5 = false, d4 && !d5 = \(d4 && !d5)")
