@@ -129,3 +129,14 @@ let numberArray = [1, 2, 3, 4, 5]
 for i in 0..<numberArray.count {
     print("Число: \(numberArray[i])")
 }
+
+// MARK: Односторонние диапазоны
+print("\n//Односторонние диапазоны")
+
+for index in numberArray[...4] {
+    print("\(index) * 9 = \(index * 9)")
+}
+
+for index in numberArray[0...] {
+    print("\(index) * 8 = \(index * 8)")
+}
