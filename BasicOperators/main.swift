@@ -148,3 +148,9 @@ print("0 содержиться в range(...6)? - \(range.contains(0))")
 print("-1 содержиться в range(...6)? - \(range.contains(-1))")
 print("-8 содержиться в range(...6)? - \(range.contains(-8))")
 
+
+// MARK: Оператор логического НЕ
+print("\n//Оператор логического НЕ")
+
+var d3 = true
+print("d3 = \(d3), !d3 = \(!d3)")
