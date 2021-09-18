@@ -163,3 +163,13 @@ var d4 = true
 var d5 = false
 print("d4 = true, d5 = false, d4 && d5 = \(d4 && d5)")
 print("d4 = true, d5 = false, d4 && !d5 = \(d4 && !d5)")
+
+
+// MARK: Оператор логического ИЛИ
+print("\n//Оператор логического ИЛИ")
+var d6 = true
+var d7 = false
+print("d6 = true, d7 = false, d6 && d7 = \(d4 || d5)")
+print("d6 = true, d7 = false, d6 && !d7 = \(d4 || !d5)")
+print("d6 = true, d7 = false, !d6 && d7 = \(!d4 || d5)")
+
